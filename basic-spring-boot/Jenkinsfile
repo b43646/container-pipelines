@@ -38,7 +38,7 @@ pipeline {
       steps {
         // Turn off Git's SSL cert check, uncomment if needed
         // sh 'git config --global http.sslVerify false'
-        git url: "https://b43646:rencom1988@github.com/b43646/container-pipelines.git"
+        git url: "https://b43646:rencom1988@github.com/b43646/spring-rest.git"
       }
     }
     stage('try to merge'){
